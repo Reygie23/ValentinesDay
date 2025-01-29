@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Valentines Day / Happy 1st Monthsary </title>
+    <title>Happy Valentines Day / Happy 1st Monthsary</title>
     <style>
         body, html {
             margin: 0;
@@ -16,30 +16,27 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-<<<<<<< HEAD
-            padding-bottom: 150px; 
-=======
-            padding-bottom: 50px; /* Adjusted for mobile */
->>>>>>> 06c0692ad35b740198111f33a4a1ef0c0ed896d0
+            justify-content: flex-start; /* Changed to flex-start */
+            padding-top: 20px; /* Added padding at the top */
         }
 
         .image-row {
             display: flex;
             justify-content: center;
-            margin-top: 350px; 
+            margin-top: 20px; /* Adjusted for mobile */
+            flex-wrap: wrap; /* Allow images to wrap on smaller screens */
         }
 
         .image-row img {
             width: 40%;
             max-width: 150px;
-            margin: 0 10px;
+            margin: 10px; /* Adjusted for mobile */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .title {
-            font-size: 36px;
+            font-size: 24px; /* Adjusted for mobile */
             font-weight: bold;
             color: #ff69b4;
             margin: 20px 0;
@@ -48,51 +45,52 @@
         }
 
         .message, .message-2 {
-            font-size: 16px;
+            font-size: 14px; /* Adjusted for mobile */
             color: #333;
             text-align: center;
-            padding: 20px;
+            padding: 15px; /* Adjusted for mobile */
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 15px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             line-height: 1.6;
             max-width: 90%;
-            margin: 0 10px;
+            margin: 10px; /* Adjusted for mobile */
         }
 
         .message {
-            margin-bottom: 20px; 
+            margin-bottom: 15px; /* Adjusted for mobile */
         }
 
         .message-2 {
-            margin-bottom: 30px; 
-            font-size: 14px; 
-            padding: 15px; 
+            margin-bottom: 20px; /* Adjusted for mobile */
+            font-size: 12px; /* Adjusted for mobile */
+            padding: 10px; /* Adjusted for mobile */
         }
 
         .message p {
-            margin: 10px 0;
+            margin: 8px 0; /* Adjusted for mobile */
         }
 
         .message-2 p {
-            margin: 8px 0;
+            margin: 6px 0; /* Adjusted for mobile */
         }
 
         .button-row {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin-top: 20px; 
-            margin-bottom: 50px; 
+            gap: 10px; /* Adjusted for mobile */
+            margin-top: 15px; /* Adjusted for mobile */
+            margin-bottom: 30px; /* Adjusted for mobile */
+            flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
         }
 
         .next-button, .no-button {
-            padding: 10px 20px;
+            padding: 8px 16px; /* Adjusted for mobile */
             background-color: #ff69b4;
             color: white;
             border: none;
-            border-radius: 25px;
-            font-size: 18px;
+            border-radius: 20px; /* Adjusted for mobile */
+            font-size: 14px; /* Adjusted for mobile */
             cursor: pointer;
             text-decoration: none;
         }
@@ -107,6 +105,32 @@
 
         .no-button:hover {
             background-color: #8e8e8e;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (min-width: 768px) {
+            .title {
+                font-size: 36px; /* Larger font for tablets and desktops */
+            }
+
+            .message, .message-2 {
+                font-size: 16px; /* Larger font for tablets and desktops */
+                padding: 20px; /* Larger padding for tablets and desktops */
+            }
+
+            .message-2 {
+                font-size: 14px; /* Larger font for tablets and desktops */
+                padding: 15px; /* Larger padding for tablets and desktops */
+            }
+
+            .next-button, .no-button {
+                padding: 10px 20px; /* Larger buttons for tablets and desktops */
+                font-size: 18px; /* Larger font for tablets and desktops */
+            }
+
+            .image-row {
+                margin-top: 350px; /* Adjusted for larger screens */
+            }
         }
     </style>
 </head>
@@ -127,6 +151,7 @@
         <p>Happy Valentines Day Mee</p>
         <p>When I first met you, I thought it was just a brief meeting, but it turns out that you are now in an important role and the reason I am happy.</p>
         <p>I will always pray that you will always succeed in your life. I hope that your life will always be happy and you will be able to achieve your dreams no matter what you tell me.</p>
+        <p>Your support has truly made a difference in my life, and I am grateful for every moment we've shared. Together, we have faced challenges and celebrated successes, strengthening our bond along the way.</p>
         <p>Thank you for being a meaningful partner for me. </p>
     </div>
 
@@ -138,6 +163,5 @@
         <a href="https://www.facebook.com/Jreg.Sc" class="next-button">Yesss Darling</a>
         <a href="No.html" class="no-button">Don't want to Ah</a>
     </div>
-
 </body>
 </html>
